@@ -1,4 +1,4 @@
-package com.syncfit
+package com.syncfit.app
 
 import android.app.Application
 import com.facebook.react.PackageList
@@ -11,6 +11,7 @@ import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.react.flipper.ReactNativeFlipper
 import com.facebook.soloader.SoLoader
+import com.syncfit.app.BuildConfig
 
 class MainApplication : Application(), ReactApplication {
 
